@@ -27,7 +27,7 @@ from typing import List
 #Output: 5, nums = [0,1,2,3,4]
 #Explanation: Your function should return length = 5, with the first five elements of nums being modified to 0, 1, 2, 3, and 4 respectively. It doesn't matter what values are set beyond the returned length.
 #```
-
+#(Remove Duplicates)[https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/]
 def removeDuplicates(nums: List[int]) -> int:
     i = 0
     while i < len(nums) -1:
