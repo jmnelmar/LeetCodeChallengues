@@ -17,9 +17,13 @@ def containsDuplicate2(nums):
             return True
     return False
 
+#Removing duplicates
+def containsDuplicate3(nums):
+    return len(set(nums)) != len(nums)
+
 nums = [1,2,3,1]
-print( containsDuplicate2(nums) )
+print( containsDuplicate3(nums) )
 nums[:] = [1,2,3,4]
-print( containsDuplicate2(nums) )
+print( containsDuplicate3(nums) )
 nums[:] = [1,1,1,3,3,4,3,2,4,2]
-print( containsDuplicate2(nums) )
+print( containsDuplicate3(nums) )
