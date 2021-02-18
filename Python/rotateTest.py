@@ -14,3 +14,6 @@ for i in range(n):
     a[i] = nums[i-n+1+k]
 nums[:] = a
 print(nums)
+
+[-1,-100,3,99]
+2
